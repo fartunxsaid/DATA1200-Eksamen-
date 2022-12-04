@@ -221,6 +221,7 @@ form{
     max-width: fit-content;
 }
 input {
+    color: black;
     border-radius: 6px;
     margin: 8px 0px;
     padding: 15px 25px;
@@ -339,6 +340,11 @@ a{
     #bookingpage{
         text-align: center;
     }
+    #homepage{
+        margin:0px;
+        text-align: center;
+    }
+
     .grid_area_homepage{
         display:inline-flex;
         flex-direction: column;
