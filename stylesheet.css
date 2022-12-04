@@ -334,9 +334,7 @@ a{
     text-align: center;
     
 }
-#accessibilitypage>img{
-    width:100%;
-}
+
 
   /*Responsive*/
 @media only screen and (max-width: 805px){
@@ -347,7 +345,10 @@ a{
         margin:0px;
         text-align: center;
     }
-
+    
+    #accessibilitypage>img{
+    width:100%;
+    }
     .grid_area_homepage{
         display:inline-flex;
         flex-direction: column;
